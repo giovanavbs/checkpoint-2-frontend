@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
@@ -34,7 +35,7 @@ body{
     color: white;
     font-size: 24px;
     font-weight: bold;
-     font-family: "Jost", sans-serif;
+    font-family: "Jost", sans-serif;
 }
 
 #menu ul{
@@ -130,6 +131,7 @@ h2{
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
+    font-family: "Jost", sans-serif;
 }
 
 .album1,
@@ -229,6 +231,8 @@ h2{
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
+    font-family: "Jost", sans-serif;
+
 }
 
 .poke1,
@@ -285,4 +289,5 @@ h2{
 #opcoes {
      font-family: "Jost", sans-serif;
 }
+
 
