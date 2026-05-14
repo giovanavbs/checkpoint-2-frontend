@@ -224,9 +224,50 @@ h2{
 }
 
 
-#etc p{
-    margin-bottom: 15px;
-    font-size: 18px;
+.deck_pokemon{
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.poke1,
+.poke2,
+.poke3,
+.poke4{
+    width: 23%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.poke1 img,
+.poke2 img,
+.poke3 img,
+.poke4 img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10%;
+    transition: 0.4s;
+}
+
+.poke1:hover img,
+.poke2:hover img,
+.poke3:hover img,
+.poke4:hover img{
+    transform: scale(1.05);
+}
+
+.item{
+    background-color: #8f6db3;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.item h4{
+    margin-bottom: 10px;
 }
 
 #rodape{
